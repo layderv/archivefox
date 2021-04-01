@@ -1,0 +1,7 @@
+{
+  "name": "archivefox",
+  "description": "ArchiveBox with Firefox",
+  "path": "/home/user/archivefox/app/archivefox.py",
+  "type": "stdio",
+  "allowed_extensions": [ "{f4a72ecd-c6d6-4228-bea2-2a3d4e6915cd}" ]
+}

@@ -1,0 +1,32 @@
+{
+
+  "description": "Archive webpages with ArchiveBox",
+  "manifest_version": 2,
+  "name": "ArchiveFox",
+  "version": "1.0",
+  "icons": {
+    "48": "icons/message.svg"
+  },
+
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "{f4a72ecd-c6d6-4228-bea2-2a3d4e6915cd}",
+      "strict_min_version": "57.0"
+    }
+  },
+
+  "options_ui": {
+    "page": "settings/options.html"
+  },
+
+  "background": {
+    "scripts": ["background.js"]
+  },
+
+  "browser_action": {
+    "default_icon": "icons/message.svg"
+  },
+  
+  "permissions": ["nativeMessaging", "storage", "tabs"]
+
+}
